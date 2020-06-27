@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f9fa;
+    ;
+}
+
+/* ------------------------------------------for left side---------------------------------------------------- */
+
+#forms {
+    display: flex;
+    justify-content: center;
+}
+
+
+#forms .header {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+
+}
+
+
+
+.BILLING h4 {
+    margin: 5% 0;
+}
+
+#forms .form-row {
+    padding-bottom: 4%;
+}
+
+/* ------------------------------------------------for right side-------------------------------------------------- */
+
+#forms h4 {
+    margin: 5% 0;
+}
+
+.cart-text {
+    margin-top: 5%;
+}
+
+.cart-text,
+.value-text {
+    text-align: center;
+    transition: .9s ease-in-out;
+}
+
+.cart-text:hover,
+.value-text:hover {
+    color: rgb(53, 187, 53);
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.cart-1 {
+    margin: 2% 0;
+    text-align: center;
+    border: 1px solid gainsboro;
+    background: rgb(255, 255, 255);
+    padding: 8px 0;
+}
+
+.cart-2 {
+    margin: 2% 0;
+    text-align: center;
+    border: 1px solid gainsboro;
+    background: rgb(255, 255, 255);
+}
+
+.cart-box span {
+    margin-left: 54.3%;
+
+}
+
+
+.submission {
+    margin-top: 2%;
+}
+
+.input-text {
+    width: 60%;
+    height: auto;
+
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+.btn {
+    margin: 5px 0;
+}
+
+/* --------------------------------------------------for footer dection----------------------------------------- */
+
+footer {
+    text-align: center;
+    color: rgba(102, 98, 98, 0.6);
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+footer li a {
+    padding: 0 7px;
+    color: rgb(67, 174, 216);
+}
